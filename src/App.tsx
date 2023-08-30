@@ -1,9 +1,10 @@
 import './App.scss'
+import Home from './modules/Home/Pages/Home'
 function App() {
 
   return (
     <>
-      <h1>Coming Soon........</h1>  
+      <Home/>
     </>
   )
 }
