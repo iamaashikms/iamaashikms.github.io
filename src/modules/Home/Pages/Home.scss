@@ -1,0 +1,33 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+
+}
+
+
+a{
+    color:black;
+    text-decoration: none;
+    text-decoration-color: white;
+
+}
+a:hover{
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181,181,181)
+
+    
+}
+home{
+&__nav-links{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+}

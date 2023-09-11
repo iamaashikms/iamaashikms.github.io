@@ -4,13 +4,13 @@ const Home: FC = () => {
   return (
     <>
       <nav>
-        <div className="logo">Aashik M S</div>
-        <div className="nav-bar">
-          <ul className="nav-links">
-            <li><a href="#about"/>About</li>
-            <li><a href="#experience"/>Experience</li>
-            <li><a href="#project"/>Projects</li>
-            <li><a href="#contact"/>Contact</li>
+        <div className="home__logo">Aashik M S</div>
+        <div className="home__nav-bar">
+          <ul className="home__nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
