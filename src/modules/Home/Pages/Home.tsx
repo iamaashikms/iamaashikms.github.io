@@ -7,10 +7,10 @@ const Home: FC = () => {
         <div className="logo">Aashik M S</div>
         <div className="nav-bar">
           <ul className="nav-links">
-            <li className="About">About</li>
-            <li className="Experience">Experience</li>
-            <li className="Project">Project</li>
-            <li className="Contact">Contact</li>
+            <li><a href="#about"/>About</li>
+            <li><a href="#experience"/>Experience</li>
+            <li><a href="#project"/>Projects</li>
+            <li><a href="#contact"/>Contact</li>
           </ul>
         </div>
       </nav>
